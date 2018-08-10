@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<permissions>
+    <privapp-permissions package="com.motorola.demo">
+        <!-- System defined permissions -->
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.DISPATCH_PROVISIONING_MESSAGE"/>
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="android.permission.MEDIA_CONTENT_CONTROL"/>
+        <permission name="android.permission.READ_LOGS"/>
+        <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+
+        <!-- Moto DemoMode Framework Proxy permission -->
+        <permission name="com.motorola.demo.permission.START_DEMOMODE_FRAMEWORK_PROXY_SERVICE" />
+
+        <!-- Motorola defined permissions -->
+        <permission name="com.motorola.permission.ACCESS_CHECKIN" />
+        <permission name="com.motorola.permission.SINGLEHAND_CONTROL" />
+        <permission name="com.motorola.actions.provider.permission.WRITE_MODES" />
+
+    </privapp-permissions>
+</permissions>

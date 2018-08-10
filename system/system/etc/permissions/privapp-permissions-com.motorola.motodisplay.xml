@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<permissions>
+    <privapp-permissions package="com.motorola.motodisplay">
+
+        <!-- System defined permissions -->
+        <permission name="android.permission.MEDIA_CONTENT_CONTROL"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+
+        <!-- Motorola defined permissions -->
+        <permission name="com.motorola.permission.ACCESS_CHECKIN"/>
+        <permission name="com.motorola.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.motorola.permission.DOZE_HOST_SERVICE"/>
+        <permission name="com.motorola.permission.INTERACT_ACROSS_USERS_FULL"/>
+        <permission name="com.motorola.motodisplay.permission.GLIMPSE"/>
+        <permission name="com.motorola.moto.permission.MOTO_STATE"/>
+        <permission name="com.motorola.moto.provider.permission.READ_MODES"/>
+        <permission name="com.motorola.actions.provider.permission.READ_MODES"/>
+        <permission name="com.motorola.slpc.permission.SENSORHUB"/>
+        <permission name="com.motorola.audiomonitor.permission.VAS"/>
+        <permission name="com.motorola.moto.permission.VOICE_OPTIN"/>
+        <permission name="com.motorola.audiomonitor.permission.SETTINGS"/>
+        <permission name="com.motorola.audiomonitor.provider.permission.READ_MODES"/>
+        <permission name="com.motorola.audiomonitor.permission.LOCAL"/>
+
+    </privapp-permissions>
+</permissions>
